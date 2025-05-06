@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E9DFBF"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:text="Voila, you have made up your mind!"
+        android:textColor="#519F6E"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/finalRestaurantName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp"
+        android:text="Final Restaurant Choice"
+
+        android:textColor="#095522"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/finalRestaurantDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp"
+        android:text="Restaurant details here"
+        android:textColor="#74A66C"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/finalChoiceMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:text="Enjoy your meal at this restaurant!"
+        android:textColor="#519F6E"
+        android:textSize="18sp" />
+
+
+</LinearLayout>
